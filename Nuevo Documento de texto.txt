@@ -1,0 +1,27 @@
+/*create table Horario (
+id_Horario serial,
+	Hora_entrada varchar (30),
+	Hora_Salida varchar (30),
+	dias int,
+	primary key(id_Horario)
+);*/
+
+/*create table Categoria(
+id_Categoria serial,
+	nombre varchar (30),
+	primary key(id_Categoria)
+);*/
+
+
+
+/*create table Dueno(
+RFC varchar(13),
+	id_direccion int,
+	Num_Tienda int,
+	Nombre Varchar (30),
+	Apellido_P varchar(20),
+	Apellido_M varchar(20),
+	Telefono int,
+	primary Key(RFC),
+	foreing key (id_direccion)references direccion 
+);*/
